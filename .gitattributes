@@ -1,0 +1,12 @@
+# Facility Drain Coordinator — DCCP physical fleet lifecycle.
+# Copyright 2026 Summon Software Labs.
+# Apache License 2.0. No telemetry transmission.
+
+# Normalise line endings in the repository so that a fresh clone builds
+# identically on every platform and diffs never churn because of CRLF.
+* text=auto eol=lf
+
+# Durable store generation containers are binary payloads and are never
+# normalised.
+*.fdcdrain binary
+*.bin binary

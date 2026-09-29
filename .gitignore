@@ -1,0 +1,44 @@
+# Facility Drain Coordinator — DCCP physical fleet lifecycle.
+# Copyright 2026 Summon Software Labs.
+# Apache License 2.0. No telemetry transmission.
+
+# Build directories
+build/
+out/
+cmake-build-*/
+
+# Compiled objects, libraries and executables
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Debug and linker side files
+*.pdb
+*.ilk
+*.exp
+*.idb
+
+# CMake and CTest state
+CMakeUserPresets.json
+CTestTestfile.cmake
+Testing/
+
+# Editor and operating system cruft
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.tmp
+*.log
+Thumbs.db
+.DS_Store
+
+# Local scratch space for manual runs and downstream consumer checks
+.fdc-scratch/
+.fdc-test-*/
