@@ -1,13 +1,9 @@
 # Facility Drain Coordinator
 
-Physical fleet drain coordination for the Data Center Control Plane: it decides
+Physical fleet drain coordination: it decides
 which obligations must be evacuated before a physical scope can be removed from
 service, records what the systems that own those obligations have actually
 proven, and issues removal authority only when the evidence justifies it.
-
-Repository 39 of 72 of the Data Center Control Plane (DCCP), the facility-wide
-composition and authority layer above Accelerated Systems Infrastructure (ASI)
-and Distributed Fabric Infrastructure (DFI).
 
 * C++20, CMake, no third-party dependencies.
 * Library, command line tool, eight examples and a benchmark.
